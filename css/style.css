@@ -21,7 +21,7 @@ body {
   scroll-behavior: smooth;
   font-family: 'Montserrat', sans-serif;
   font-size: 16px;
-  font-weight: 400;
+  font-weight: 500;
   color: #494e5f;
   line-height: 1.5;
 }
@@ -53,7 +53,7 @@ body {
 .menu-link {
   padding: 0 15px;
   line-height: 50px;
-  font-weight: 500;
+  font-weight: 700;
   transition: .3s
 }
 
@@ -125,50 +125,58 @@ body {
   padding: 5px 0;
 }
 
+.contacts__link {
+  padding: 0 5px;
+}
+
+.contacts__link:hover {
+  text-decoration: underline;
+}
+
 /*-------Main (column-right)-------*/
 
-.main__column-right {}
+.main__column-right {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
 
 .column-right {
   width: 60%;
-  padding: 0 40px 20px;
+  padding-left: 60px;
 }
 
-.section-right {}
+.title-right {
+  position: relative;
+  left: -20px;
+  padding-left: 20px;
+  background-color: #c4e2ca;
+}
 
-.education {}
+.education__num-item:last-child {
+  padding-top: 10px;
+}
 
-.education__title {}
+.education-list,
+.skills-list {
+  padding-top: 5px;
+  padding-left: 20px;
+  list-style: circle;
+}
 
-.title-right {}
+.education-item,
+.skills-item {
+  padding-bottom: 5px;
+}
 
-.education-list {}
+.education__num-list,
+.skills-list {
+  padding-left: 20px;
+}
 
-.education-item {}
-
-.skills {}
-
-.skills__title {}
-
-.skills-list {}
-
-.skills-item {}
-
-.code {}
-
-.code__title {}
-
-.code__language-javascript {}
-
-.projects {}
-
-.projects__title {}
-
-.projects__link {}
-
-.english {}
-
-.english__title {}
+.projects__link:hover {
+  text-decoration: underline;
+}
 
 /*-------Footer-------*/
 
