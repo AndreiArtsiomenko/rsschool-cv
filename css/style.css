@@ -146,6 +146,10 @@ body {
   padding-left: 60px;
 }
 
+.section-right p {
+  padding-right: 30px;
+}
+
 .title-right {
   position: relative;
   left: -20px;
