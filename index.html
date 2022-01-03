@@ -57,17 +57,61 @@
                 <h2 class="contacts__title title">Contacts</h2>
                 <ul class="contacts__list">
                   <li class="contacts__item"><span>Belarus, Gomel</span> <a href="#"></a></li>
-                  <li class="contacts__item"><span>E-mail: </span><a href=""
-                      mailto:andartsiomenko@gmail.com">andartsiomenko@gmail.com</a></li>
+                  <li class="contacts__item"><span>E-mail: </span><a
+                      href="mailto:andartsiomenko@gmail.com">andartsiomenko@gmail.com</a></li>
                   <li class="contacts__item"><span>Telegram: </span><a
                       href="https://t.me/AndreiArtsiomenko">@AndreiArtsiomenko</a></li>
                   <li class="contacts__item"><span>Discord: </span><a
-                      href="https://discord.com/channels/@AndreiArtsiomenko">AndreiArtsiomenko#3786</a></li>
+                      href="https://discord.com">AndreiArtsiomenko#3786</a></li>
                 </ul>
               </section>
             </div>
           </div>
-          <div class="main__column-right"></div>
+          <div class="main__column-right column-right">
+            <section class="column-right__education section-right" id="education">
+              <h2 class="education__title title-right">Education</h2>
+              <p>Belarusian State University of Informatics and Radioelectronics</p>
+              <p>Online courses:</p>
+              <ul class="education-list">
+                <li class="education-item">Codecademy: Course Learn CSS</li>
+                <li class="education-item">Codecademy: Course Learn HTML</li>
+                <li class="education-item">RS School: JS/Front-end (in process...)</li>
+              </ul>
+            </section>
+            <section class="column-right__skills section-right" id="skills">
+              <h2 class="skills__title title-right">Skills</h2>
+              <ul class="skills-list">
+                <li class="skills-item">HTML5</li>
+                <li class="skills-item">CSS3</li>
+                <li class="skills-item">Git (in process...)</li>
+              </ul>
+            </section>
+            <section class="column-right__code section-right" id="code">
+              <h2 class="code__title title-right">Code</h2>
+              <p>Codewars: An isogram is a word that has no repeating letters, consecutive or non-consecutive. Implement
+                a function that determines whether a string that contains only letters is an isogram. Assume the empty
+                string is an isogram. Ignore letter case.</p>
+              <pre><code class="code__language-javascript">
+  function isIsogram(str){
+    str = str.toLowerCase();
+    for (let i = 0; i &lt; str.length; i++) {
+      if (str.indexOf(str[i], i + 1) !== -1) {
+        return false;
+      }
+    }
+    return true;
+  }
+          </code></pre>
+            </section>
+            <section class="column-right__projects section-right" id="projects">
+              <h2 class="projects__title title-right">Projects</h2>
+              <p><a class="projects__link" href="https://andreiartsiomenko.github.io/rsschool-cv/">CV</a></p>
+            </section>
+            <section class="column-right__english section-right" id="english">
+              <h2 class="english__title title-right">English</h2>
+              <p>A1 - Beginner English </p>
+            </section>
+          </div>
         </div>
       </div>
     </main>
