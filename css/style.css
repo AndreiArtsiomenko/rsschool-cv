@@ -127,7 +127,48 @@ body {
 
 /*-------Main (column-right)-------*/
 
+.main__column-right {}
 
+.column-right {
+  width: 60%;
+  padding: 0 40px 20px;
+}
+
+.section-right {}
+
+.education {}
+
+.education__title {}
+
+.title-right {}
+
+.education-list {}
+
+.education-item {}
+
+.skills {}
+
+.skills__title {}
+
+.skills-list {}
+
+.skills-item {}
+
+.code {}
+
+.code__title {}
+
+.code__language-javascript {}
+
+.projects {}
+
+.projects__title {}
+
+.projects__link {}
+
+.english {}
+
+.english__title {}
 
 /*-------Footer-------*/
 
