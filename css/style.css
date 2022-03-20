@@ -43,7 +43,6 @@ body {
   margin: 0 auto;
 }
 
-
 /*-------Header-------*/
 
 .header {
@@ -68,7 +67,6 @@ body {
   text-decoration: underline;
 }
 
-
 /*-------Main-------*/
 
 .main {
@@ -80,7 +78,6 @@ body {
   flex-wrap: wrap;
   padding: 40px 0;
 }
-
 
 /*-------Main (column-left)-------*/
 
@@ -141,7 +138,6 @@ body {
 .contacts__link:hover {
   text-decoration: underline;
 }
-
 
 /*-------Main (column-right)-------*/
 
@@ -206,7 +202,6 @@ body {
 .projects__img:hover {
   box-shadow: 0 0 10px 5px rgba(22, 22, 22, 0.295);
 }
-
 
 /*-------Footer-------*/
 
