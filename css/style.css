@@ -13,6 +13,12 @@ a {
   text-decoration: none;
 }
 
+img {
+  max-width: 100%;
+  display: block;
+  margin: 0;
+}
+
 html {
   scroll-behavior: smooth;
 }
@@ -108,7 +114,7 @@ body {
   display: block;
   width: 60%;
   height: 3px;
-  margin: 30px -20px;
+  margin: 50px -20px;
   background-color: #FFFFFF;
 }
 
@@ -183,8 +189,18 @@ body {
   text-align: justify;
 }
 
-.projects__link:hover {
-  text-decoration: underline;
+.projects__items {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.projects__img {
+  max-width: 300px;
+}
+
+.projects__img:hover {
+  box-shadow: 0 0 10px 5px rgba(22, 22, 22, 0.295);
 }
 
 /*-------Footer-------*/
