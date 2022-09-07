@@ -26,3 +26,25 @@ My strengths:
 - Team playing
 
 ---
+
+### ***Skills:***
+
+- HTML5
+- CSS3
+- JS
+- Git
+- Webpack
+
+
+---
+
+### ***Education:***
+
+**Online courses**
+
+- Codecademy: *Course Learn CSS*
+- Codecademy: *Course Learn HTML*
+- RS School: *JS/Front-end*
+
+---
+
