@@ -67,4 +67,7 @@ function isIsogram(str){
 
 ---
 
+### ***Foreign language:***
+
+English - A1
 
